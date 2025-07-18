@@ -66,4 +66,82 @@
     }
 
     input, textarea, button {
-      width:
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+    }
+
+    button {
+      background-color: #2563eb;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #1d4ed8;
+    }
+
+    footer {
+      font-size: 0.875rem;
+      color: #666;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AI vs Human</h1>
+    <p>Exploring the strengths, weaknesses, and future of artificial intelligence vs human intelligence</p>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+      <div class="card">
+        <h2 style="color: #2563eb;">Artificial Intelligence</h2>
+        <p>
+          AI excels in processing large datasets quickly, performing repetitive tasks efficiently, and learning patterns from data. It has transformed industries like healthcare, finance, and customer service.
+        </p>
+        <ul>
+          <li>Speed and efficiency</li>
+          <li>No emotional bias</li>
+          <li>Constant availability</li>
+          <li>Automation of mundane tasks</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2 style="color: #047857;">Human Intelligence</h2>
+        <p>
+          Human intelligence is adaptive, creative, and capable of deep emotional understanding. It thrives in abstract thinking, moral reasoning, and social interaction—areas where AI still struggles.
+        </p>
+        <ul>
+          <li>Emotional intelligence</li>
+          <li>Ethics and values</li>
+          <li>Creativity and innovation</li>
+          <li>Contextual understanding</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="discussion">
+      <h2>Join the Discussion</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <textarea rows="5" placeholder="Your Thoughts on AI vs Human" required></textarea>
+        <button type="submit">Post Comment</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 AI vs Human Blog. All rights reserved.
+  </footer>
+
+</body>
+</html>
